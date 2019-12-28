@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'dice',
     loadChildren: () => import('./pages/dice/dice.module').then( m => m.DicePageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   }
 ];
 
