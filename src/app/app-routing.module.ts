@@ -14,6 +14,14 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  },
+  {
+    path: 'magicball',
+    loadChildren: () => import('./pages/magicball/magicball.module').then( m => m.MagicballPageModule)
+  },
+  {
+    path: 'dice',
+    loadChildren: () => import('./pages/dice/dice.module').then( m => m.DicePageModule)
   }
 ];
 
