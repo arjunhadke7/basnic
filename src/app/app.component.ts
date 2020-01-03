@@ -38,4 +38,12 @@ export class AppComponent {
       this.splashScreen.hide();
     });
   }
+
+  // backButtonPressed() {
+  //   this.platform.backButton.subscribe() {
+  //     () => {
+
+  //     }
+  //   }
+  // }
 }

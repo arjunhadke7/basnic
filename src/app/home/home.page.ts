@@ -13,9 +13,11 @@ export class HomePage {
 
   goToGenPhrase() {
     this.router.navigateByUrl('/magicball');
+    console.log('went to magic ball page');
   }
-  
+
   goToDiceApp() {
     this.router.navigateByUrl('/dice');
+    console.log('went to dice app page');
   }
 }
